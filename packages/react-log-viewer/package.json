@@ -26,7 +26,11 @@
   },
   "homepage": "https://github.com/patternfly/patternfly-react/tree/main/packages/react-log-viewer#readme",
   "scripts": {
-    "clean": "rimraf dist"
+    "clean": "rimraf dist",
+    "docs:develop": "pf-docs-framework start",
+    "docs:build": "pf-docs-framework build all --output public",
+    "docs:serve": "pf-docs-framework serve public --port 5000",
+    "docs:screenshots": "pf-docs-framework screenshots --urlPrefix http://localhost:5000"
   },
   "dependencies": {
     "@patternfly/patternfly": "^4.185.1",
