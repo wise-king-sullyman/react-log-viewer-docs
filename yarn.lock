@@ -3447,6 +3447,17 @@
   resolved "https://registry.yarnpkg.com/@patternfly/react-icons/-/react-icons-4.78.1.tgz#a3890b323e9c273224fe68493d5ea24e448a1bf7"
   integrity sha512-dQPrlkXE1aXZalKYJ5vbudbjZN2IDG7pTFdjCXymjfokiOiXo7brn565NN2MegAeldmgWLWZQiAzvD6zLTwrjQ==
 
+"@patternfly/react-log-viewer@4.69.1":
+  version "4.69.1"
+  resolved "https://registry.yarnpkg.com/@patternfly/react-log-viewer/-/react-log-viewer-4.69.1.tgz#69d83e6c801e01d20e6fb09d12b401a84e250d78"
+  integrity sha512-SzIfMPvp+H4xrQ/q6haguwzvuXdm/e0AJ3a2f/J21OFiUvIvo1To2/+CVYQX3NggAslJQ9e+3czdZD+mBe2AXw==
+  dependencies:
+    "@patternfly/react-core" "^4.224.1"
+    "@patternfly/react-icons" "^4.75.1"
+    "@patternfly/react-styles" "^4.74.1"
+    memoize-one "^5.1.0"
+    resize-observer-polyfill "^1.5.1"
+
 "@patternfly/react-styles@^4.74.1":
   version "4.74.1"
   resolved "https://registry.yarnpkg.com/@patternfly/react-styles/-/react-styles-4.74.1.tgz#3cd19cd31dd896bfd046f79241e8a8aefbfb1152"

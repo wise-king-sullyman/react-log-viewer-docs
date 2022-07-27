@@ -2,6 +2,7 @@
 id: Log viewer
 beta: true
 section: extensions
+source: react-demos
 ---
 
 import { LogViewer, LogViewerSearch } from '@patternfly/react-log-viewer';
