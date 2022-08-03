@@ -1,5 +1,5 @@
 import React from 'react';
-import { data } from './realTestData.js';
+import { data } from '@patternfly/react-log-viewer/src/LogViewer/examples/realTestData';
 import { LogViewer } from '@patternfly/react-log-viewer';
 import { Banner } from '@patternfly/react-core';
 

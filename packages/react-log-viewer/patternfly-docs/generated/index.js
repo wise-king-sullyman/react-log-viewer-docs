@@ -24,13 +24,5 @@ module.exports = {
     section: "extensions",
     source: "react",
     Component: () => import(/* webpackChunkName: "extensions/log-viewer/react/index" */ './extensions/log-viewer/react')
-  },
-  '/extensions/log-viewer/html': {
-    id: "Log viewer",
-    title: "Log viewer",
-    toc: [{"text":"Examples"},[{"text":"Basic"},{"text":"With line numbers"},{"text":"With text wrapping"},{"text":"Without text wrapping"},{"text":"With search results"},{"text":"With max height"},{"text":"With dropdown, drilldown, search expanded"},{"text":"With popover open"},{"text":"Dark"}],{"text":"Documentation"},[{"text":"Accessibility"},{"text":"Usage"}]],
-    section: "extensions",
-    source: "html",
-    Component: () => import(/* webpackChunkName: "extensions/log-viewer/html/index" */ './extensions/log-viewer/html')
   }
 };
