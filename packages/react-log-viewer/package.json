@@ -1,5 +1,5 @@
 {
-  "name": "@ausulliv-test/react-log-viewer-docs",
+  "name": "@ausuliv/react-log-viewer-docs",
   "version": "4.72.1",
   "description": "Terminal renderer",
   "main": "dist/js/index.js",
